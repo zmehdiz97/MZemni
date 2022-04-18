@@ -39,7 +39,7 @@ node_modules
 public/dist/
 dist/
 tmp/
-build/
+#build/
 
 # OSX
 .DS_Store
