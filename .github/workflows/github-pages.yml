@@ -27,5 +27,5 @@ jobs:
       run: | 
           git config user.name "zmehdiz97"
           git config user.email "mehdi.zemni@student-cs.fr"
-          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com:zmehdiz97/MZemni.git
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/zmehdiz97/MZemni.git
           npm run deploy
