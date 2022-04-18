@@ -12,21 +12,20 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
-        <p><a href="mailto:michael.l.dangelo@gmail.com">michael.l.dangelo@gmail.com</a></p>
+        <h2>Mehdi Zemni</h2>
+        <p><a href="mailto:mehdi.zemni@student-cs.fr">mehdi.zemni@student-cs.fr</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Michael. I like building things.
-        I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni, and
-        the co-founder and CTO of <a href="https://arthena.com">Arthena</a>. Before Arthena I was
-        at <a href="https://matroid.com">Matroid</a>
-        , <a href="https://planet.com">Planet</a>
-        , <a href="https://planetaryresources.com">Planetary Resources</a>
-        , <a href="https://facebook.com">Facebook</a>
-        , and <a href="https://seds.org">SEDS</a>.
+      <p>Hi, I&apos;m Mehdi. I am a final year student at
+        <a href="https://www.centralesupelec.fr/">Centralesupélec</a> and master’s student at ENS Paris-Saclay (<a href="https://www.master-mva.com/">MVA</a>)
+        . Passionate about AI and computer vision and highly motivated by technical challenges
+        . My interests include generative models
+        , self-supervised learning
+        , Interpretabilty and 3D computer vision
+        . Proactive in my work with a strong desire for self-improvement and overachievement.
       </p>
       <ul className="actions">
         <li>
@@ -37,7 +36,6 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.</p>
     </section>
   </section>
 );
